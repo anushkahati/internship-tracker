@@ -1,0 +1,60 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #d0c3c3;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(2, 2, 2, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #000000;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  form label {
+    margin-top: 10px;
+  }
+  
+  form input, form select, form button {
+    margin-top: 5px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  
+  form button {
+    background-color: #007bff;
+    color: rgb(255, 255, 255);
+    border:none;
+    margin-top: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  form button:hover {
+    background-color: #0056b3;
+  }
+  
+  table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+  }
+  

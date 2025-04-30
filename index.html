@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Internship Tracker </title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎯 Internship Application Tracker</h1>
+
+    <form id="tracker-form">
+      <label for="company">Company Name:</label>
+      <input type="text" id="company" name="company" required>
+
+      <label for="role">Role:</label>
+      <input type="text" id="role" name="role" required>
+
+      <label for="date">Date Applied:</label>
+      <input type="date" id="date" name="date" required>
+
+      <label for="status">Application Status:</label>
+      <select id="status" name="status" required>
+        <option value="">Select Status</option>
+        <option value="Applied">Applied</option>
+        <option value="Interview">Interview</option>
+        <option value="Offer">Offer</option>
+        <option value="Rejected">Rejected</option>
+      </select>
+
+      <button type="submit">Add Application</button>
+    </form>
+
+    <table id="application-table">
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Role</th>
+          <th>Date Applied</th>
+          <th>Status</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- Applications will appear here -->
+      </tbody>
+    </table>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
